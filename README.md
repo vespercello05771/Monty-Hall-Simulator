@@ -29,4 +29,13 @@ To run this program, you need to have a C++ compiler installed on your system. T
 ## Customization
 You can customize the program by modifying the source code (`simulator.cpp`). For example, you can enter debug mode by changing debug value to 1.
 
+## Bonus
+Mathematical Expression for Probability in Monty Hall Problem for N doors and K doors opened by host:
+
+Given N doors the probability of choosing the door with a car is 1/N.
+Hence the probability of winning the car if the player chooses to stick is 1/N, as this doesn’t change anything.
+
+We know that the probability that the car is present is any door other than the one we chose is N-1/N. Since k doors without the car are opened by the host and the probability of the car being present in any of the remaining N-K-1 doors is 1/N-K-1, 
+The probability of winning the car upon switching is the probability of not having the car on the initial choice times the probability of picking it from the N-K-1 doors which is (N-1/N)*(1/N-K-1).
+
 
