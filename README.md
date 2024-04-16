@@ -9,7 +9,7 @@ To run this program, you need to have a C++ compiler installed on your system. T
 ## How to Run
 1. **Clone the Repository:**
     Clone this repository to your local machine using Git:
-    git clone https://github.com//monty-hall-problem.git
+    git clone https://github.com/vespercello05771/Monty-Hall-Simulator
 
 2. **Compile the Program:**
     Compile the C++ source code using your preferred C++ compiler. For example, using g++:
@@ -22,7 +22,7 @@ To run this program, you need to have a C++ compiler installed on your system. T
     for example: ./sim 3 1 1000
 
 4. **View the Output:**
-    The program will simulate multiple rounds of the Monty Hall problem and output the results, including the probability of winning by sticking with the initial choice and the probability of winning by switching doors.
+    The program will simulate multiple rounds of the Monty Hall problem and output the probability of winning by sticking with the initial choice and the probability of winning by switching doors.
 
 ## Customization
 You can customize the program by modifying the source code (`simulator.cpp`). For example, you can enter debug mode by changing debug value to 1.
