@@ -13,15 +13,17 @@ To run this program, you need to have a C++ compiler installed on your system. T
 
 2. **Compile the Program:**
     Compile the C++ source code using your preferred C++ compiler. For example, using g++:
-    g++ simulator.cpp -o <object_file_name>
+    g++ simulator.cpp -o <object_file_name>.
+   
     for example : g++ simulator.cpp -o sim
 
-3. **Run the Program:**
+4. **Run the Program:**
     Execute the compiled program:
     ./<object_file_name> <num_doors> <num_doors_opened_by_host> <num_simulations>
+    
     for example: ./sim 3 1 1000
 
-4. **View the Output:**
+5. **View the Output:**
     The program will simulate multiple rounds of the Monty Hall problem and output the probability of winning by sticking with the initial choice and the probability of winning by switching doors.
 
 ## Customization
